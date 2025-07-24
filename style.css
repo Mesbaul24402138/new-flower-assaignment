@@ -43,22 +43,33 @@ list-style: none;
     color: black;
 }
 
-/* .home{
-    color:rgb(0, 0, 0);
-    font-weight: bold;
-}
-.cart{
-color:#000000
-} */
 
 
 
 /* selected tag is start */
 .inter{
-  font-family: "Inter", sans-serif
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  color:rgba(0, 0, 0, 0.5) ;
 }
-.noto serif{
+.noto-serif{
      font-family: "Noto Serif", serif;
+     color: black;
+}
+.special-color{
+    color:#E95A08 ;
 }
 
  /* selected tag is end */
+
+
+ /* banner section */
+ .banner{
+    width:1140px;
+    height:461px;
+    margin:120px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items:end
+  
+ }
