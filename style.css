@@ -1,11 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     max-width: 1440px;
 }
+main{
+    width:1140px ;
+margin: 0 auto;}
 
 .navber{
     display: flex;
@@ -73,3 +80,53 @@ list-style: none;
     align-items:end
   
  }
+
+ /* our plants section */
+ 
+ .our-plants{
+    text-align: center;
+    margin-top: 120px;
+ }
+ .our-plant-tittle{
+font-weight: bold;
+font-size: 50px;
+ }
+ .our-plants-description{
+    padding:16px 126px 49px;
+    box-sizing: border-box;
+ }
+.plant-product-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 10px;
+}
+/* .plant-product{
+    w
+} */
+.plant-product{
+    width:270px;
+    height: 484pxpx;
+
+}
+.plant-product img{
+    width: 100%;
+    border-radius: 3px;
+}
+.our-plant-btn{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #E95A08;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+     font-family: "Inter", sans-serif;
+     color: white;
+}
+.plant-tittle,.plant-subtittle{
+   font-family: "Inter", sans-serif;
+   font-size: 22px;   
+}
+.plant-subtittle{
+    margin: 20px;
+}
