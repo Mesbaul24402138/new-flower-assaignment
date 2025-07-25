@@ -100,9 +100,7 @@ font-size: 50px;
     grid-template-columns: repeat(4,1fr);
     grid-row-gap: 10px;
 }
-/* .plant-product{
-    w
-} */
+
 .plant-product{
     width:270px;
     height: 484pxpx;
@@ -130,3 +128,34 @@ font-size: 50px;
 .plant-subtittle{
     margin: 20px;
 }
+
+
+/* our plant section is completed */
+
+
+/* flower loaver section is start */
+.flower-lover-section{
+    display: flex;
+    height: 597px;
+    align-items: center;
+    gap:60px;
+    margin-top:224px ;
+
+}
+.flower-lover-section img{
+    height: 100%;
+}
+.flower-tittle{
+    font-weight: 600;
+    font-size: 50px;
+}
+.about-flower li{
+margin:20px 0 ;
+}
+/* flower loaver section is end */
+
+/* letest deal section is start */
+
+
+
+/* letest deal section is end */
